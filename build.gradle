@@ -33,6 +33,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	compile group: 'io.github.openfeign', name: 'feign-jackson', version: '10.2.0'
 	compile group: 'io.github.openfeign', name: 'feign-okhttp', version: '10.2.0'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 	testImplementation 'io.projectreactor:reactor-test'
