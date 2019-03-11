@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+spopify-api-config:
+  url: https://api.spotify.com/v1
+  authorization: Bearer BQA5Xw0tmGhL7T8j7F_jWd_d5qBFQIjCwzglXktp5J4JL9S0Q-G7iJiNNvvp4QHNHOof1Hx8vp5Ta7cZybIiwy5lhucb-ajBanWhPiePtEoC1vitVLLPdI-8COWxxcmMkcyRD7qZVEOVRXkh6Iqf0GRJlccWctlrBG7nvDN01v5Uv88
+  limit: 50
