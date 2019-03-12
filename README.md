@@ -1,6 +1,29 @@
-# cashback-spring-webflux
-Cashback para um programa de fidelidade com o objetivo de aumentar o volume de vendas e conquistar novos clientes, baseado em uma tabela de porcentagem de cashback por gênero musical e dia da semana.
+# Cashback Spring Webflux (Web on Reactive Stack)
 
+Api Rest para calculo de cashback* em um e-commerce usando Programação Reativa em Java com Spring Boot, WebFlux, MongoDB e Gradle
+
+Foi utilizado o Gradle para acelerar o processo de build.
+
+Foi utilizado o Feign como client para consumir a API do Spotify. Na inicialização, os dados sao consumidos da API do Spotify e gravado no banco NoSQL MongoDB.
+
+Foi utilizado o Designer Pattern Strategy' para calcular o valor do cashback
+
+*cashback para um programa de fidelidade com o objetivo de aumentar o volume de vendas e conquistar novos clientes, baseado em uma tabela de porcentagem de cashback por gênero musical e dia da semana.
+
+
+## Como rodar o programa?
+
+1) Baixe o codigo fonte ou faça um fork (aconselhável)
+
+2) Instale o Java 8 ou superior
+
+3) Instale o Gradle (https://gradle.org/install/)
+
+4) Executar na raiz da aplicação
+   $ ./gradlew clean build && java -jar build/libs/cashback-0.0.1.jar
+
+
+##Documentação dos serviços disponíveis
 
 ## Create new products
 
