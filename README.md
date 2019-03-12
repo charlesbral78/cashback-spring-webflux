@@ -1,6 +1,6 @@
 # Cashback Spring Webflux (Web on Reactive Stack)
 
-Api Rest para calculo de cashback* em um e-commerce usando Programação Reativa em Java com Spring Boot, WebFlux, MongoDB e Gradle
+Api Rest para calculo de cashback* em um e-commerce usando Programação Reativa em Java com Spring Boot, WebFlux, MongoDB, Gradle e Docker
 
 Foi utilizado o Gradle para acelerar o processo de build.
 
@@ -21,6 +21,13 @@ Foi utilizado o Designer Pattern Strategy' para calcular o valor do cashback
 
 4) Executar na raiz da aplicação
    $ ./gradlew clean build && java -jar build/libs/cashback-0.0.1.jar
+
+
+## ou use o Docker...
+
+1) docker build -t cashback ./src/main/docker/
+
+2) docker run -p 8080:8080 cashback
 
 
 ##Documentação dos serviços disponíveis
